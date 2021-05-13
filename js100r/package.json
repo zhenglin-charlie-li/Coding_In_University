@@ -1,0 +1,23 @@
+{
+  "name": "cmt120-assessment1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-js": "mocha js/ --reporter nyan",
+    "test-js-gitlab": "mocha js/ --reporter mocha-junit-reporter --reporter-options mochaFile=js-test.xml",
+    "test-py": "pytest --junitxml=py-test.xml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.cardiff.ac.uk:cmt120/assessment1-test.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0",
+    "mocha-junit-reporter": "^2.0.0",
+    "node": "^15.4.0"
+  }
+}
