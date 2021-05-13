@@ -1,0 +1,3 @@
+D:/code is here/4.15C++500r/cmake-build-debug/CMakeFiles/4_15C__500r.dir
+D:/code is here/4.15C++500r/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/code is here/4.15C++500r/cmake-build-debug/CMakeFiles/rebuild_cache.dir

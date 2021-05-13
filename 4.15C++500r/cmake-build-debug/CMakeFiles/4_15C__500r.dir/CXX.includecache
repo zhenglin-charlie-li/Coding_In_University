@@ -1,0 +1,66 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/code is here/4.15C++500r/Board.h
+BoardSize.h
+D:/code is here/4.15C++500r/BoardSize.h
+Tile.h
+D:/code is here/4.15C++500r/Tile.h
+CellId.h
+D:/code is here/4.15C++500r/CellId.h
+
+D:/code is here/4.15C++500r/BoardSize.h
+iostream
+-
+fstream
+-
+
+D:/code is here/4.15C++500r/CellChooser.h
+CellId.h
+D:/code is here/4.15C++500r/CellId.h
+
+D:/code is here/4.15C++500r/CellId.h
+iostream
+-
+
+D:/code is here/4.15C++500r/Dice.h
+
+D:/code is here/4.15C++500r/Game.cpp
+string
+-
+iostream
+-
+cassert
+-
+cstring
+-
+Board.h
+D:/code is here/4.15C++500r/Board.h
+Dice.h
+D:/code is here/4.15C++500r/Dice.h
+BoardSize.h
+D:/code is here/4.15C++500r/BoardSize.h
+Player.h
+D:/code is here/4.15C++500r/Player.h
+Game.h
+D:/code is here/4.15C++500r/Game.h
+CellChooser.h
+D:/code is here/4.15C++500r/CellChooser.h
+
+D:/code is here/4.15C++500r/Game.h
+
+D:/code is here/4.15C++500r/Player.h
+string
+-
+
+D:/code is here/4.15C++500r/Tile.h
+string
+-
+CellId.h
+D:/code is here/4.15C++500r/CellId.h
+
