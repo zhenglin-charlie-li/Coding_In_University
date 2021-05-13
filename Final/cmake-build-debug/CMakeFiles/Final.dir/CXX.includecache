@@ -1,0 +1,80 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/code is here/Final/huffmancode.h
+in_outstream.h
+D:/code is here/Final/in_outstream.h
+iostream
+-
+fstream
+-
+vector
+-
+string.h
+-
+
+D:/code is here/Final/huffnode.h
+
+D:/code is here/Final/hufftree.h
+huffnode.h
+D:/code is here/Final/huffnode.h
+
+D:/code is here/Final/in_outstream.h
+iostream
+-
+cstdlib
+-
+fstream
+-
+cstring
+-
+
+D:/code is here/Final/main.cpp
+iostream
+-
+write_message.h
+D:/code is here/Final/write_message.h
+uncompress.h
+D:/code is here/Final/uncompress.h
+hufftree.h
+D:/code is here/Final/hufftree.h
+huffmancode.h
+D:/code is here/Final/huffmancode.h
+
+D:/code is here/Final/uncompress.h
+cstdio
+-
+iostream
+-
+string
+-
+fstream
+-
+hufftree.h
+D:/code is here/Final/hufftree.h
+
+D:/code is here/Final/write_message.h
+cstdio
+-
+iostream
+-
+cstdlib
+-
+fstream
+-
+cstring
+-
+hufftree.h
+D:/code is here/Final/hufftree.h
+huffnode.h
+D:/code is here/Final/huffnode.h
+in_outstream.h
+D:/code is here/Final/in_outstream.h
+huffmancode.h
+D:/code is here/Final/huffmancode.h
+
