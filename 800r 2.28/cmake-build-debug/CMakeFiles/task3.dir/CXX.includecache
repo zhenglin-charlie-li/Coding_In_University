@@ -1,0 +1,174 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/code is here/800r 2.28/AvailableTiles.cpp
+cassert
+-
+iostream
+-
+AvailableTiles.h
+D:/code is here/800r 2.28/AvailableTiles.h
+
+D:/code is here/800r 2.28/AvailableTiles.h
+Tile.h
+D:/code is here/800r 2.28/Tile.h
+
+D:/code is here/800r 2.28/Board.cpp
+iostream
+-
+cassert
+-
+BoardSize.h
+D:/code is here/800r 2.28/BoardSize.h
+Board.h
+D:/code is here/800r 2.28/Board.h
+Tile.h
+D:/code is here/800r 2.28/Tile.h
+
+D:/code is here/800r 2.28/Board.h
+BoardSize.h
+D:/code is here/800r 2.28/BoardSize.h
+Tile.h
+D:/code is here/800r 2.28/Tile.h
+CellId.h
+D:/code is here/800r 2.28/CellId.h
+
+D:/code is here/800r 2.28/BoardSize.h
+iostream
+-
+fstream
+-
+
+D:/code is here/800r 2.28/CellId.cpp
+CellId.h
+D:/code is here/800r 2.28/CellId.h
+
+D:/code is here/800r 2.28/CellId.h
+
+D:/code is here/800r 2.28/Dice.h
+
+D:/code is here/800r 2.28/Player.h
+string
+-
+
+D:/code is here/800r 2.28/TestAvailableTiles3.cpp
+AvailableTiles.h
+D:/code is here/800r 2.28/AvailableTiles.h
+AvailableTiles.h
+D:/code is here/800r 2.28/AvailableTiles.h
+cassert
+-
+string
+-
+iostream
+-
+iomanip
+-
+TestHelper.h
+D:/code is here/800r 2.28/TestHelper.h
+Player.h
+D:/code is here/800r 2.28/Player.h
+Dice.h
+D:/code is here/800r 2.28/Dice.h
+Tile.h
+D:/code is here/800r 2.28/Tile.h
+
+D:/code is here/800r 2.28/TestBoard3.cpp
+Board.h
+D:/code is here/800r 2.28/Board.h
+Board.h
+D:/code is here/800r 2.28/Board.h
+cassert
+-
+string
+-
+iostream
+-
+TestHelper.h
+D:/code is here/800r 2.28/TestHelper.h
+BoardSize.h
+D:/code is here/800r 2.28/BoardSize.h
+Player.h
+D:/code is here/800r 2.28/Player.h
+Tile.h
+D:/code is here/800r 2.28/Tile.h
+
+D:/code is here/800r 2.28/TestHelper.h
+cassert
+-
+string
+-
+iostream
+-
+typeinfo
+-
+
+D:/code is here/800r 2.28/TestTile3.cpp
+Tile.h
+D:/code is here/800r 2.28/Tile.h
+Tile.h
+D:/code is here/800r 2.28/Tile.h
+cassert
+-
+string
+-
+iostream
+-
+sstream
+-
+TestHelper.h
+D:/code is here/800r 2.28/TestHelper.h
+Player.h
+D:/code is here/800r 2.28/Player.h
+
+D:/code is here/800r 2.28/Tile.cpp
+cassert
+-
+string
+-
+iostream
+-
+iomanip
+-
+cstdlib
+-
+ctime
+-
+Player.h
+D:/code is here/800r 2.28/Player.h
+CellId.h
+D:/code is here/800r 2.28/CellId.h
+BoardSize.h
+D:/code is here/800r 2.28/BoardSize.h
+Tile.h
+D:/code is here/800r 2.28/Tile.h
+
+D:/code is here/800r 2.28/Tile.h
+string
+-
+CellId.h
+D:/code is here/800r 2.28/CellId.h
+
+D:/code is here/800r 2.28/main.cpp
+string
+-
+iostream
+-
+cstring
+-
+Board.h
+D:/code is here/800r 2.28/Board.h
+Dice.h
+D:/code is here/800r 2.28/Dice.h
+BoardSize.h
+D:/code is here/800r 2.28/BoardSize.h
+Player.h
+D:/code is here/800r 2.28/Player.h
+AvailableTiles.h
+D:/code is here/800r 2.28/AvailableTiles.h
+
