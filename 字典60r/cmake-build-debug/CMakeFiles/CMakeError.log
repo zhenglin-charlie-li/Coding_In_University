@@ -1,0 +1,16 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/code is here/字典60r/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/mingw64/bin/mingw32-make.exe cmTC_3141f/fast && D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3141f.dir\build.make CMakeFiles/cmTC_3141f.dir/build
+mingw32-make[1]: Entering directory 'D:/code is here/字典60r/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3141f.dir/testCCompiler.c.obj
+D:\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_3141f.dir\testCCompiler.c.obj   -c "D:\code is here\瀛楀吀60r\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c"
+gcc.exe: error: D:\code is here\瀛楀吀60r\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+gcc.exe: fatal error: no input files
+compilation terminated.
+mingw32-make[1]: *** [CMakeFiles\cmTC_3141f.dir\build.make:85: CMakeFiles/cmTC_3141f.dir/testCCompiler.c.obj] Error 1
+mingw32-make[1]: Leaving directory 'D:/code is here/字典60r/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make: *** [makefile:140: cmTC_3141f/fast] Error 2
+
+
+
