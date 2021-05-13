@@ -1,0 +1,3 @@
+D:/code is here/40r/cmake-build-debug/CMakeFiles/40r.dir
+D:/code is here/40r/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/code is here/40r/cmake-build-debug/CMakeFiles/rebuild_cache.dir
