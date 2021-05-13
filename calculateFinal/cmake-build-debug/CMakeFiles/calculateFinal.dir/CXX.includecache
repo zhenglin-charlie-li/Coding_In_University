@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/code is here/calculateFinal/LStack.h
+iostream
+D:/code is here/calculateFinal/iostream
+
+D:/code is here/calculateFinal/getInput.h
+iostream
+-
+string
+-
+
+D:/code is here/calculateFinal/main.cpp
+iostream
+-
+LStack.h
+D:/code is here/calculateFinal/LStack.h
+getInput.h
+D:/code is here/calculateFinal/getInput.h
+optr.h
+D:/code is here/calculateFinal/optr.h
+string
+-
+cmath
+-
+
+D:/code is here/calculateFinal/optr.h
+
