@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="saolei"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/code is here/saolei/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/code is here/saolei/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/code is here/saolei/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/code is here/saolei/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/code is here/saolei/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="saolei">
+				<Option output="D:/code is here/saolei/cmake-build-debug/saolei.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/code is here/saolei/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/code is here/saolei/cmake-build-debug/Makefile&quot;  VERBOSE=1 saolei"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/code is here/saolei/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/code is here/saolei/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/code is here/saolei/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="saolei/fast">
+				<Option output="D:/code is here/saolei/cmake-build-debug/saolei.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/code is here/saolei/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/code is here/saolei/cmake-build-debug/Makefile&quot;  VERBOSE=1 saolei/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/code is here/saolei/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/code is here/saolei/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/code is here/saolei/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/code is here/saolei/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/code is here/saolei/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/code is here/saolei/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/code is here/saolei/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/code is here/saolei/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/code is here/saolei/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/code is here/saolei/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/code is here/saolei/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/code is here/saolei/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;D:/code is here/saolei/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/code is here/saolei/Controller.cpp">
+			<Option target="saolei"/>
+		</Unit>
+		<Unit filename="D:/code is here/saolei/Controller.h">
+			<Option target="saolei"/>
+		</Unit>
+		<Unit filename="D:/code is here/saolei/GameEngine.cpp">
+			<Option target="saolei"/>
+		</Unit>
+		<Unit filename="D:/code is here/saolei/GameEngine.h">
+			<Option target="saolei"/>
+		</Unit>
+		<Unit filename="D:/code is here/saolei/GameEnginePro.cpp">
+			<Option target="saolei"/>
+		</Unit>
+		<Unit filename="D:/code is here/saolei/GameEnginePro.h">
+			<Option target="saolei"/>
+		</Unit>
+		<Unit filename="D:/code is here/saolei/GameMenu.cpp">
+			<Option target="saolei"/>
+		</Unit>
+		<Unit filename="D:/code is here/saolei/GameMenu.h">
+			<Option target="saolei"/>
+		</Unit>
+		<Unit filename="D:/code is here/saolei/Graphic.cpp">
+			<Option target="saolei"/>
+		</Unit>
+		<Unit filename="D:/code is here/saolei/Graphic.h">
+			<Option target="saolei"/>
+		</Unit>
+		<Unit filename="D:/code is here/saolei/Main.cpp">
+			<Option target="saolei"/>
+		</Unit>
+		<Unit filename="D:/code is here/saolei/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

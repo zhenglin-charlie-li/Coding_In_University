@@ -1,0 +1,74 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/code is here/saolei/Controller.cpp
+Controller.h
+D:/code is here/saolei/Controller.h
+
+D:/code is here/saolei/Controller.h
+windows.h
+-
+
+D:/code is here/saolei/GameEngine.cpp
+GameEngine.h
+D:/code is here/saolei/GameEngine.h
+
+D:/code is here/saolei/GameEngine.h
+Graphic.h
+D:/code is here/saolei/Graphic.h
+Controller.h
+D:/code is here/saolei/Controller.h
+GameMenu.h
+D:/code is here/saolei/GameMenu.h
+time.h
+-
+
+D:/code is here/saolei/GameEnginePro.cpp
+GameEnginePro.h
+D:/code is here/saolei/GameEnginePro.h
+
+D:/code is here/saolei/GameEnginePro.h
+Graphic.h
+D:/code is here/saolei/Graphic.h
+Controller.h
+D:/code is here/saolei/Controller.h
+GameMenu.h
+D:/code is here/saolei/GameMenu.h
+time.h
+-
+
+D:/code is here/saolei/GameMenu.cpp
+GameMenu.h
+D:/code is here/saolei/GameMenu.h
+
+D:/code is here/saolei/GameMenu.h
+Graphic.h
+D:/code is here/saolei/Graphic.h
+Controller.h
+D:/code is here/saolei/Controller.h
+GameEngine.h
+D:/code is here/saolei/GameEngine.h
+GameEnginePro.h
+D:/code is here/saolei/GameEnginePro.h
+time.h
+-
+
+D:/code is here/saolei/Graphic.cpp
+Graphic.h
+D:/code is here/saolei/Graphic.h
+
+D:/code is here/saolei/Graphic.h
+stdio.h
+-
+windows.h
+-
+
+D:/code is here/saolei/Main.cpp
+GameMenu.h
+D:/code is here/saolei/GameMenu.h
+
