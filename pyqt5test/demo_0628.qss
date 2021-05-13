@@ -1,0 +1,20 @@
+#这里MainWindow为实例化出的窗体名（实例名）
+ 
+ 
+qss_style = '''
+                    #pushbutton_mini,#pushButton_2,#pushButton_3,#pushButton_4,#pushButton_5,#pushButton_6{
+                        background-color:grey;
+                        border-radius:20px;
+                        #border:2px solid yellow;
+                    }
+                    .QPushButton:hover{
+                        background-color:blue;
+                    }
+                    #MainWindow{
+                        border-image:url(../Joint_Drive/splash.png);
+                    }
+                    #tableWidget{
+                        background-color:cyan;
+                    }
+     '''
+    MainWindow.setStyleSheet(qss_style)
