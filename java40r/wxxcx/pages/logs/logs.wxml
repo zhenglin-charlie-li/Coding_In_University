@@ -1,0 +1,20 @@
+<view id="total">
+  <image src="img/222.jpg"></image>
+  <form bindsubmit="create_login">
+    <view id="t1">
+      <text>账号</text><input type="text" name="username" id="use" placeholder="输入您的学号或手机号码" value="{{username}}"></input>
+    </view>
+    <view id="t2">
+      <text>密码</text><input type="password" name="password" id="pass1" placeholder="输入您密码" value="{{password}}"></input>
+    </view>
+    <!-- <view id="t3">
+      <text>手机号后四位</text><input type="password" name="phone" id="pass2" placeholder="输入您的手机尾号"
+        value="{{phone}}"></input>
+    </view> -->
+    <button bindtap="goto_index" id="btn1" form-type="submit"><text>登陆</text></button>
+  </form>
+
+  <button bindtap="goto_zhuce" id="btn2"><text>注册</text></button>
+  <button bindtap="goto_update" id="btn3"><text>忘记密码</text></button>
+
+</view>

@@ -1,0 +1,21 @@
+<view id="total">
+  <form bindsubmit="create_zhuce">
+    <view id="t4">
+      <text>手机号</text><input type="text" name="phone" id="pass3" placeholder="输入您的手机号"
+        value="{{phone}}" bindinput="handleinput1"></input>
+    </view>
+    <view id="t1">
+      <text>学号</text><input type="text" name="username" id="use" placeholder="输入您的学号" value="{{username}}"bindinput="handleinput2"></input>
+    </view>
+    <view id="t2">
+      <text>密码</text><input type="password" name="password1" id="pass1" placeholder="注册您密码"
+        value="{{password1}}"bindinput="handleinput3"></input>
+    </view>
+    <view id="t3">
+      <text>确认密码</text><input type="password" name="password2" id="pass2" placeholder="确认您密码"
+        value="{{password2}}"bindinput="handleinput4"></input>
+    </view>
+    <button id="btn1" bindtap="xiayibu"><text>下一步</text></button>
+  </form>
+</view>
+
