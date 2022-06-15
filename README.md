@@ -1,3 +1,3 @@
-# code-for-others
+# 
 
-之前自己写的作业
+code during university for different kinds of purpose
