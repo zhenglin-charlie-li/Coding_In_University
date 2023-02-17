@@ -1,0 +1,349 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+% \setlength{\footskip}{4.08003pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      {\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Zhenglin Li} \\ \vspace{1pt}
+    % 123 Street Name, Town, State 12345 \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +86 153-9847-5433 ~ \href{mailto:lizhenglin2001@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{1125806272@qq.com}} ~ 
+    % \href{https://www.linkedin.com/in/zhenglin-li/}{\raisebox{-0.2\height}\faLinkedin\ \underline{www.linkedin.com/in/zhenglin-li/}}  ~
+    \href{github.com/ZhengLin-Li}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/ZhengLin-Li}}
+    \vspace{3pt}{\\Seeking Software Development Engineer New Grad and Internship Roles}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      % {University of California, Irvine}{Sept. 2023 -- Jun. 2025}
+      {University of California, Irvine}{ Aug. 2024 (Expected)}
+      {Master of Science in Computer Science, GPA: 4.0 / 4.0}{Irvine, California, United States}
+      % {{ \footnotesize{\newline{}\textbf{Courses:} Operating System, Data Structures \& Algorithmic, Computer Networks and Distributed System, Database System and Information Management, Introduction to Software Engineering, Computer Organization and Architecture}}}
+      % this is necessay because we are not CS
+    \resumeSubheading
+      {Sichuan University}{Sept. 2019 -- Jun. 2023}
+      {Bachelor of Science in Software Engineering, GPA: 3.8 / 4.0}{Chengdu, Sichuan, China}
+  \resumeSubHeadingListEnd
+
+% %------RELEVANT COURSEWORK-------
+% \section{Relevant Coursework}
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{4}
+%             \begin{itemize}[itemsep=-5pt, parsep=3pt]
+%                 \item\small Data Structures
+%                 \item Software Methodology
+%                 \item Algorithms Analysis
+%                 \item Database Management
+%                 \item Artificial Intelligence
+%                 \item Internet Technology
+%                 \item Systems Programming
+%                 \item Computer Architecture
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{2.0\multicolsep}
+%     %\resumeSubHeadingListEnd
+
+
+
+
+ 
+ 
+ 
+
+
+%-----------EXPERIENCE-----------
+\section{WORKING EXPERIENCE}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Microsoft}
+      {Nov. 2022 -- Present}
+      {Software Engineer Intern, WebXT News \& Feeds Core Ranking Team}
+      {}
+      % {Beijing, China}
+      \resumeItemListStart
+        \resumeItem{Migrated a task execution engine, added \href{https://github.com/serilog/serilog}{Serilog} as the logging component, and introduced \href{https://toml.io/en/}{TOML} to support extensibility and simplicity of configuration, which accelerated the execution speed by more than 70\%}
+        \resumeItem{Develop a desktop application for ranking control using Nextron, which offers an in-depth analysis of ranking details. The system improves the productivity of R&D staff by 50\%}
+        % \resumeItem{Fixed several bugs in existing software systems, achieving }
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Microsoft}
+      {Jul. 2022 -- Oct. 2022}
+      {Software Engineer Intern, M365 Haas \& Exchange Team}
+      {}
+      % {Suzhou, Jiangsu, China}
+      \resumeItemListStart
+        \resumeItem{Developed a data query tool (RepairBox Data Query Tool) to help data center operations staff query and analyze hardware information of machines, improving their productivity by 50\%}
+        \resumeItem{Utilized {Azure Synapse Analytics} to analyze data in \href{https://spark.apache.org/}{PySpark} and persist results to \href{https://azure.microsoft.com/en-us/services/storage/blobs/}{Azure Blob Storage}, using RESTful API on client side to trigger downloading, saving time more than 60\% compared to the previous system}
+        \resumeItem{Wrote {PowerShell} scripts on the client side to interact with users, using \href{https://docs.microsoft.com/en-us/azure/active-directory/develop/}{Microsoft Identity Platform} and \href{https://azure.microsoft.com/en-us/services/active-directory/\#overview}{Azure Active Directory} to authenticate user identity}
+    \resumeItemListEnd
+    
+
+    \resumeSubheading
+      {Bytedance(TikTok)}
+      {Apr. 2022 -- Jul. 2022}
+      % {Bytedance}{Apr. 2022 -- Jul. 2022}
+      {Software Engineer Intern, TikTok Open Platform Team}
+      {}
+      % {Shenzhen, Guangdong, China}
+      \resumeItemListStart
+        % \resumeItem{Developed a \href{https://open.larksuite.com/}{Lark bot} using {FaaS} (function as a service) to automate responses to operation staff queries, increasing response time by 60\%. Staff were able to access information without writing SQL with the help of this bot, improving efficiency and productivity.}
+        \resumeItem{Developed a \href{https://open.larksuite.com/}{Lark robot} using {FaaS} (function as a service) to automatically respond to the operation staff, letting them query information without writing {SQL}, which increased their response time by 60\%}
+        \resumeItem{Refactored three microservice systems using \href{https://thrift.apache.org/}{Apache Thrift} and \href{https://github.com/cloudwego/kitex}{Kitex} (a micro-service framework in {Go}) to support more features, which introduced {Redis} thus reducing the CPU workload by {17\%} and database access by {29\%}}
+        \resumeItem{Deployed the three distributed microservice systems on the ByteCloud cloud platform, leading to a {7\%} increase in {PV}(Page View) and {4\%} increase in {GMV}(Gross Merchandise Value)}
+      \resumeItemListEnd
+    
+
+    % \resumeSubheading
+    %   {Hawadee Co., Ltd.}
+    %   {Jun. 2021 -- Jul. 2021}
+    %   {Software Engineer Intern, Product R\&D Team}
+    %   {}
+    %   % {Chengdu, Sichuan, China}
+    %   \resumeItemListStart
+    %         \resumeItem{Designed the architecture of a restaurant order management system, implemented it based on Spring Boot and MyBatis, and deployed the service to Alibaba Could within 4 weeks}
+    %         \resumeItem{Utilized Redis, Kafka, and Elasticsearch as the middleware to optimize the performance, which saved the cloud computing cost by roughly 35\% and speeds the response time by 70\%}
+    %   \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+
+
+
+%-----------PROJECTS-----------
+\section{ENGINEERING EXPERIENCE}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+    
+    \resumeProjectHeading
+          % {\textbf{En Yu - A website helping people learn history in a interesting way} $|$ {Frontend Developer}}{Sept. 2020 - Dec. 2020}
+          {\textbf{Distributed KV Storage System}}{Dec. 2022 - Mar. 2023}
+          \resumeItemListStart
+            \resumeItem{Implemented Raft as a Go module that supports leader election, log replication, and state persistence}
+            \resumeItem{Built a storage service that maintains a database to process clients’ RPCs, including “Put”, “Append”, and “Get”}
+            \resumeItem{Modified the service to achieve fault tolerance via snapshots to cooperate with Raft to save log space}
+            \resumeItem{Developed the shard controller as a fault-tolerant service to decide which replica group to use for each shard}
+          \resumeItemListEnd 
+          \vspace{-19pt}
+
+          
+          
+    % \resumeProjectHeading
+    %       % {\textbf{En Yu - A website helping people learn history in a interesting way} $|$ {Frontend Developer}}{Sept. 2020 - Dec. 2020}
+    %       {\textbf{En Yu - A website helping people learn history in a interesting way}}{Sept. 2020 - Dec. 2020}
+    %       \resumeItemListStart
+    %         \resumeItem{Designed the behavior of the website, interacts between pages and layout of each page}
+    %         \resumeItem{Implemented the context \& behavior \& logic of more than 20 web pages using HTML, CSS and JavaScript.}
+    %         % \resumeItem{Deployed to Alibaba Cloud, attracted more than 2000 PV and won the first prize of Challenge Cup, University level}
+    %       \resumeItemListEnd 
+    %       \vspace{-19pt}
+    
+    \resumeProjectHeading
+          % {\textbf{En Yu - A website helping people learn history in a interesting way} $|$ {Frontend Developer}}{Sept. 2020 - Dec. 2020}
+          {\textbf{A Lightweight Key-value Storage Engine Based On SkipList}}{Jul. 2022 - Dec. 2022}
+          \resumeItemListStart
+            % \resumeItem{Implemented a lightweight key-value storage engine based on the SkipList according to the paper \textit{\href{https://15721.courses.cs.cmu.edu/spring2018/papers/08-oltpindexes1/pugh-skiplists-cacm1990.pdf}{Skip Lists: A Probabilistic Alternative to Balanced Trees}}}
+            \resumeItem{Implemented a lightweight key-value storage engine based on the SkipList according to the paper \textit{\href{https://15721.courses.cs.cmu.edu/spring2018/papers/08-oltpindexes1/pugh-skiplists-cacm1990.pdf}{SkipLists}}}
+            \resumeItem{Adjusted details referring to the implementation in \href{https://redis.io/}{Redis}, which achieved better performance by more than 10\% }
+            \resumeItem{In the condition of random read/write, the QPS of writing is 22w and QPS of reading is 16w}
+            % \resumeItem{Deployed to Alibaba Cloud, attracted more than 2000 PV and won the first prize of Challenge Cup, University level}
+          \resumeItemListEnd 
+          \vspace{-19pt}
+
+      \resumeProjectHeading
+          % {\textbf{Zhi Qu - A WeChat mini‑app helping delivery-retrieval faster} $|$ {Team Leader}}{Sept. 2019 ‑ May. 2020}
+          {\textbf{Zhi Qu - A WeChat Mini‑app Helping Delivery-retrieval Faster}}{Sept. 2020 ‑ Oct. 2021}
+          \resumeItemListStart
+            \resumeItem{Designed an overall architecture of the \href{https://developers.weixin.qq.com/miniprogram/en/dev/framework/quickstart/}{WeChat mini‑app}, including frontend, backend, and Tencent  cloud deployment}
+            \resumeItem{Built the system using the APIs provided by the \href{https://open.weixin.qq.com/?lang=en}{WeChat Open Platform} with the cloud development environment}
+            \resumeItem{Deployed and helped more than 4000 students in SCU to restive their delivery, providing service for more than 12 weeks}
+          \resumeItemListEnd
+          % \vspace{-19pt}
+
+    
+    % \resumeProjectHeading
+    % %       % {\textbf{A web-based food ordering system} $|$ {Team Leader, Full Stack Developer}}{Jun. 2021 - Jul. 2021}
+    %       {\textbf{A Web-based Food Ordering System}}{Jun. 2020 - Jul. 2020}
+    %       \resumeItemListStart
+    %         \resumeItem{Designed the architecture of the system based on Spring Boot and MyBatis}
+    %         \resumeItem{Implemented the system to provide service to three different kinds of end users: customer, cooks and waiters}
+    %       \resumeItemListEnd 
+
+          
+    \resumeSubHeadingListEnd
+    
+          
+
+
+
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS}
+    {
+    \item{
+     \textbf{Programming Language}{: C++, Go, Java, C\#, Python, HTML/CSS, JavaScript, SQL, Bash, PowerShell} \\
+     \textbf{Technologies}{: AWS, Docker, MySQL, Redis, MongoDB, SQLite, Elasticsearch, Kafka, Git, Linux} \\
+     \textbf{Framework}{: Django, React, Spring Boot, MyBatis, Maven, Node.JS} 
+    }
+    }
+
+
+
+
+
+% %-----------LEADERSHIP EXPERIENCE---------------
+% \section{EXTRACURRICULAR AND LEADERSHIP}
+%     \resumeSubHeadingListStart
+%         \resumeSubheading{SCU Computer Science Club}{Sept. 2020 ‑ Aug. 2021}{Vice President}{Sichuan University}
+%             \resumeItemListStart
+%                 % \resumeItem{Managed executive board of 6 members and ran biweekly meetings.}
+%                 \resumeItem{Organized a programming contest at Sichuan University, attracting more than 20 teams(100 students)}
+%                 \resumeItem{Delivered a speech on the history of the tech industry in China during the club's regular seminar}
+%                 \resumeItem{Support president to lead the club of 30+ members and won the title of the outstanding club in SCU of 2021}
+%             \resumeItemListEnd
+%     \resumeSubHeadingListEnd
+
+
+
+ 
+
+% %-----------AWARDS ANS INVOLVEMENT---------------
+% \section{AWARDS AND INVOLVEMENT}
+%     \resumeSubHeadingListStart
+%         \resumeSubheading{\href{https://www.credly.com/badges/dc482b2e-bdc4-4d0a-8cd7-2fda11b77ec4/linked_in_profile}{Microsoft Global Hackathon 2022}}{2022}{}{}  \vspace{-16px}  
+%         \resumeSubheading{Top 3\%, \href{https://tianchi.aliyun.com/}{Tianchi Big Data Competition}}{2022}{}{}  \vspace{-16px}     
+%         \resumeSubheading{Outstanding Student}{2021}{}{}  \vspace{-16px} 
+%         \resumeSubheading{First-Class Scholarship}{2021}{}{}  \vspace{-16px}  
+%         % \resumeSubheading{Outstanding Cadres of Student Association}{2021}{}{}  \vspace{-15px} 
+%         % \resumeSubheading{Volunteer in Undergraduate Orientation of Class 2020}{2020}{}{}  
+%         \resumeSubheading{Third Prize, The 14th China Software Design and Application Competition}{2020}{}{}  \vspace{-16px}   
+%         \small\resumeSubheading{Outstanding Prize, College Students' Innovative Entrepreneurial Training Plan Program}{2020}{}{}  \vspace{-16px}     
+%     \resumeSubHeadingListEnd
+
+
+\end{document}
