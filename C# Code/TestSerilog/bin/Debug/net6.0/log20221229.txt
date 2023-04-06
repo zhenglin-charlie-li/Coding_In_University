@@ -1,0 +1,4 @@
+2022-12-29 13:35:52.605 +08:00 [INF] Hello, Serilog!
+2022-12-29 13:36:20.790 +08:00 [INF] Hello, Serilog! {}
+2022-12-29 13:36:38.688 +08:00 [INF] Hello, Serilog! {}
+2022-12-29 13:36:38.750 +08:00 [INF] Hello, Serilog! test if can seen

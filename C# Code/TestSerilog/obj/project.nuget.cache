@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "wb9WiDgZV3zl3cJlIHCFBD3Hx8DxONtoBWmSLlndCUFCJyp0tTiAT2+BcFtwoA3Tn/eVdOUV9UMYE5hKPRU2TA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\v-zhenglinli\\Documents\\Projects\\Coding_In_University\\C# Code\\TestSerilog\\TestSerilog.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\v-zhenglinli\\.nuget\\packages\\serilog\\2.12.0\\serilog.2.12.0.nupkg.sha512",
+    "C:\\Users\\v-zhenglinli\\.nuget\\packages\\serilog.sinks.console\\4.1.0\\serilog.sinks.console.4.1.0.nupkg.sha512",
+    "C:\\Users\\v-zhenglinli\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

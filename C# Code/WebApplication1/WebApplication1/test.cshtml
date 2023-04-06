@@ -1,0 +1,36 @@
+<style>
+	table {
+        border-collapse: collapse;
+        margin: 0 auto;
+    }
+
+    table td, table th {
+        border: 1px solid #cad9ea;
+        color: #666;
+        height: 30px;
+        width: 250px;
+    }
+
+    .TDName {
+        background-color: #CCE8EB;
+    }
+</style>
+
+@{
+    // var JobName = Model.ViewBag.JobName == null ? "Default Value" : "not null";
+    var RequestId = Model.ViewBag.RequestId ?? "Default Value";
+    var Operater = Model.ViewBag.Operater ?? "Default Value";
+    var OperateDate = Model.ViewBag.OperateDate ?? "Default Value";
+}
+
+<table>
+    @* <tr><td class='TDName'>JobName</td><td>@(JobName)</td></tr> *@
+    <tr><td class='TDName'>RequestID</td><td>@(RequestId)</td></tr>
+    <tr><td class='TDName'>Operater</td><td>@(Operater)</td></tr>
+    <tr><td class='TDName'>OperateDate</td><td>@(OperateDate)</td></tr>
+    
+    @foreach (var property in (System.Collections.Generic.IDictionary<System.String, System.Object>)(Model.ViewBag))
+    {
+        <tr><td class='TDName'>@property.Key</td><td>@property.Value</td></tr>
+    }
+</table>
