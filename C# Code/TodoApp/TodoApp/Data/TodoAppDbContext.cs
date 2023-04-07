@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using TodoApp.Entities;
 using Volo.Abp.AuditLogging.EntityFrameworkCore;
 using Volo.Abp.EntityFrameworkCore;
 using Volo.Abp.FeatureManagement.EntityFrameworkCore;
@@ -12,6 +13,8 @@ namespace TodoApp.Data;
 
 public class TodoAppDbContext : AbpDbContext<TodoAppDbContext>
 {
+    public DbSet<TodoItem> TodoItems { get; set; }
+    
     public TodoAppDbContext(DbContextOptions<TodoAppDbContext> options)
         : base(options)
     {
@@ -22,7 +25,6 @@ public class TodoAppDbContext : AbpDbContext<TodoAppDbContext>
         base.OnModelCreating(builder);
 
         /* Include modules to your migration db context */
-
         builder.ConfigurePermissionManagement();
         builder.ConfigureSettingManagement();
         builder.ConfigureAuditLogging();
@@ -31,6 +33,10 @@ public class TodoAppDbContext : AbpDbContext<TodoAppDbContext>
         builder.ConfigureFeatureManagement();
         builder.ConfigureTenantManagement();
 
-        /* Configure your own entities here */
+        /* Configure your own tables/entities inside here */
+        builder.Entity<TodoItem>(b =>
+        {
+            b.ToTable("TodoItems");
+        });
     }
 }

@@ -1,6 +1,6 @@
 ﻿using Volo.Abp.Domain.Entities;
 
-namespace TodoAppEntities;
+namespace TodoApp.Entities;
 
 public class TodoItem : BasicAggregateRoot<Guid>
 {
