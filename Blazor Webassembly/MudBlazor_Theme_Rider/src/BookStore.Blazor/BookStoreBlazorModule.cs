@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Net.Http;
 using Blazorise.Bootstrap5;
 using Blazorise.Icons.FontAwesome;
@@ -17,6 +17,7 @@ using Volo.Abp.UI.Navigation;
 using Volo.Abp.Identity.Blazor.WebAssembly;
 using Volo.Abp.SettingManagement.Blazor.WebAssembly;
 using Volo.Abp.TenantManagement.Blazor.WebAssembly;
+using Volo.Abp.AspNetCore.Components.WebAssembly.BasicTheme;
 
 namespace BookStore.Blazor;
 
@@ -28,7 +29,8 @@ namespace BookStore.Blazor;
     typeof(AbpTenantManagementBlazorWebAssemblyModule),
     typeof(AbpSettingManagementBlazorWebAssemblyModule)
 )]
-public class BookStoreBlazorModule : AbpModule
+[DependsOn(typeof(AbpAspNetCoreComponentsWebAssemblyBasicThemeModule))]
+    public class BookStoreBlazorModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)
     {
